@@ -1,0 +1,11 @@
+<div class="card-deck col-sm-12 cold-md-12 mb-3">
+  {% for post in site.categories.code %}
+  <div class="card thumbnail wow fadeIn">
+    <img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
+    <div class="card-img-overlay">
+      <a href="{{ post.url }}" ><h3 class="card-title mt-0">{{ post.title }}</h3></a>
+      <a href="{{ post.url }}" ><p class="card-text">{{ post.excerpt }}</p></a>
+    </div>
+  </div>
+{% endfor %}
+</div>

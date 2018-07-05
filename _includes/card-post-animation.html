@@ -1,0 +1,11 @@
+<div class="card-columns">
+  {% for post in site.categories.animation %}
+  <div class="card thumbnail wow fadeIn" style="width: 15rem;">
+    <img class="card-img-bottom img-fluid mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
+    <a href="{{ post.url }}"><div class="card-img-overlay">
+      <h4 class="card-title">{{ post.title }}</h4>
+      <p class="card-text">{{ post.excerpt }}</p>
+    </div></a>
+  </div>
+{% endfor %}
+</div>

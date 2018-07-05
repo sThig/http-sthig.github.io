@@ -1,0 +1,13 @@
+
+  {% for post in site.categories.update limit:1 | remove: '<p>' %}
+    <a href="{{ post.url | remove: '<p>' | remove: '</p>' }}" ><h3 class="card-title mt-0">{{ post.title | remove: '<p>' }}</h3></a>
+    <div class="d-flex flex-row">
+      <div <div class="col-2 p-0">
+        <a href="{{ post.url | remove: '<p>' }}"><img class="footer-image-update" src="/assets/img/{{ post.image }}"  /></a>
+      </div>
+      <div class="col-10">
+        {{ post.excerpt | remove: '<p>' | truncatewords: 20 }}
+        <a href="{{ post.url }}">Read more</a>
+      </div>
+    </div>
+{% endfor %}

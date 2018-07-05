@@ -3,7 +3,7 @@ layout: page-internal
 title: User Interface
 permalink: /pages/design-ui
 image: 3.JPG
-examples: '{% include card-post-ui.html %}'
+passname: ui
 ---
 In 1994 I spent around 3 hours loading little floppy discs up in my very tiny macintosh to finally experience some software called "Photoshop".  After inserting the last disc, my computer crashed and I spent another half day trying to get it installed.  
 

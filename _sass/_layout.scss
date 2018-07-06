@@ -122,7 +122,7 @@ $color30darken: darken($color1, 30%);
 .thumbnail img {
     max-width: 100%;
     overflow: hidden;
-    filter: opacity(30%);
+    filter: opacity(20%);
 }
 
 .thumbnail {
@@ -718,4 +718,10 @@ section h1 {
 .footer-image-update {
   border-radius: 50%;
   width: 80%;
+}
+
+.post-content {
+  a {color: $color7;}
+  li, strong {color: white;}
+
 }

@@ -723,5 +723,11 @@ section h1 {
 .post-content {
   a {color: $color7;}
   li, strong {color: white;}
+}
 
+.minutes-read {
+    color: white;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 14px;
 }

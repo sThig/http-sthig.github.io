@@ -5,6 +5,17 @@ layout: default-internal-post
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="mb-2">
+      <span class="minutes-read">
+        {% capture words %}
+        {{ content | number_of_words | minus: 250 }}
+        {% endcapture %}
+
+        {% unless words contains "-" %}
+        {{ words | plus: 250 | divided_by: 180 | append: " minutes to read" | prepend: "This will take you about " }}
+        {% endunless %}
+      </span>
+    </div>
     <!-- <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -17,13 +28,8 @@ layout: default-internal-post
 
   <div class="post-content e-content" itemprop="articleBody">
 
-    {% capture words %}
-  {{ content | number_of_words | minus: 250 }}
-{% endcapture %}
-{% unless words contains "-" %}
-  {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
-{% endunless %}
-    {{ content }}
+      {{ content }}
+
   </div>
 
   {%- if site.disqus.shortname -%}

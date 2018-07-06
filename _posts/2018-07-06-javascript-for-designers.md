@@ -10,7 +10,9 @@ As a traditional designer and illustrator for over twenty years, making the tran
 
 Much like learning how to draw the human body or perfect your [leading or kerning](http://www.matsongraphics.com/graphic-design-blog-huntington-beach/tracking-kerning-leading/tracking-kerning-and-leading) in design, coding takes time and patience.
 
-I was at a [Creative South](https://creativesouth.com/), a convention for designers hoping to meet other code/designers to talk with and was surprised just how much others didn't know about code.  In fact sometimes when I was chatting about code they stared at my blankly as if I was from another planet.  
+I was at a [Creative South](https://creativesouth.com/), a convention for designers hoping to meet other code/designers to talk with and was surprised just how much others didn't know about code.  In fact sometimes when I was chatting about code they stared at my blankly as if I was from another planet.
+
+![Creative South Event]({{ site.baseurl }}/assets/img/posts/creative-south.jpg "Creative South 2018") 
 
 One person I met said he wanted to learn code but didn't know where to start and it all seemed so daunting to him.  It was then I realized I, as a traditional designer turned code monkey, have the opportunity to share my thoughts about how to get started.
 

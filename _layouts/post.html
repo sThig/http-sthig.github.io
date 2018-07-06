@@ -16,6 +16,13 @@ layout: default-internal-post
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+
+    {% capture words %}
+  {{ content | number_of_words | minus: 250 }}
+{% endcapture %}
+{% unless words contains "-" %}
+  {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
+{% endunless %}
     {{ content }}
   </div>
 

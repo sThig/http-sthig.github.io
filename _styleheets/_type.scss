@@ -7,11 +7,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: white;
+  color: $colortext;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
+  color: $colortext;
 }
 h2 {
   margin-top: 1rem;
@@ -30,7 +31,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #353F48;
+  color: $colortext;
 }
 
 strong {

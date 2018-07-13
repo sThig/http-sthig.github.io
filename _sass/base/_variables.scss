@@ -1,0 +1,19 @@
+
+/* RGB */
+$light-color: #FFFFFF;
+$color2: #e5e5e5;
+$color3: rgba(129, 128, 222, 1);
+$color4: rgba(136, 133, 162, 1);
+$color5: rgba(94, 103, 157, 1);
+$color6: rgba(118, 229, 224, 1);
+$color7: #FBD00A;
+$light-color0darken: darken($light-color, 1%);
+$color20darken: darken($light-color, 2%);
+$color30darken: darken($light-color, 5%);
+$colortext: #343E48;
+$color2darken: darken($color2, 10%);
+
+$bgDefault      : #ffffff;
+$bgHighlight    : #0e97ff;
+$colDefault     : #343e47;
+$colHighlight   : #0e97ff;

@@ -3,7 +3,7 @@ layout: page-internal
 title: User Experience
 permalink: /pages/design-ux
 image: 2.JPG
-examples: '{% include card-post-ux.html %}'
+passname: ux
 ---
 Starting with ideas on cocktail napkins, to drying out markers on the whiteboard to full blown wireframes designed in  [Balsmiq](https://balsamiq.com/), I own the entire design process with the user in mind at all times.  
 

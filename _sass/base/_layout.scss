@@ -1,0 +1,120 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+@import 'base/variables';
+
+.container {
+  max-width: 38rem;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.text-italics {
+  font-family: serif;
+  font-style: italic;
+}
+
+.pl-10 {
+  padding-left: 100px;
+}
+
+.page-content {
+  // margin-top: 50px;
+  background-color: $color20darken;
+}
+
+.fill {
+    background-image:   /* top, transparent black, faked with gradient */
+    linear-gradient(
+      $bgHighlight ,
+      $colHighlight
+    ), url("/assets/img/cheaha-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 10%;
+}​
+
+
+.img-size-small {
+  width: 75px;
+}
+
+
+.anchor {
+  a.anchor {
+      display: block;
+      position: relative;
+      top: -250px;
+      visibility: hidden;
+  }
+}
+
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    // max-height: 100%;
+    filter: opacity(20%);
+}
+
+.thumbnail {
+  height: 150px;
+}
+
+//more button on front page
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  // left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: $light-color;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+
+.home-text-change {
+  color: $colortext;
+}
+
+.front-page-text-swap {
+  color: $color7;
+}
+
+.post-content {
+  a {color: $bgHighlight;}
+  li, strong {color: $light-color;}
+}
+
+.minutes-read {
+    color: $light-color;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 14px;
+    span {
+      color: $light-color;
+      margin-bottom: 20px;
+      font-style: italic;
+      font-size: 14px;
+    }
+}
+
+.front-page-header {
+  h4 {color: $light-color;}
+  a {color: $light-color;}
+}

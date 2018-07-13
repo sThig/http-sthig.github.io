@@ -1,38 +1,9 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
-.container {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
-
-.text-italics {
-  font-family: serif;
-  font-style: italic;
-}
-
-/* RGB */
-$color1: #FFFFFF;
-$color2: #FFFFFF;
-$color3: rgba(129, 128, 222, 1);
-$color4: rgba(136, 133, 162, 1);
-$color5: rgba(94, 103, 157, 1);
-$color6: rgba(118, 229, 224, 1);
-$color7: rgba(244, 152, 137, 1);
-$color10darken: darken($color1, 1%);
-$color20darken: darken($color1, 2%);
-$color30darken: darken($color1, 5%);
-$colortext: #343E48;
-
-.section-hello {
-  background: $color20darken;
-}
+// .section-hello {
+//   background: $color20darken;
+// }
 
 .section-uiux {
-  background: $color10darken;
+  background: $light-color0darken;
 }
 
 .section-code {
@@ -40,7 +11,7 @@ $colortext: #343E48;
 }
 
 .section-illo {
-  background: $color10darken;
+  background: $light-color0darken;
 }
 
 .section-about {
@@ -53,88 +24,24 @@ $colortext: #343E48;
 
 .section-footer {
   background: $color2;
-  p, a, h3 {color: $colortext;}
-  a:hover, h5 {color: $colortext;}
+  p, a, h3 {color: $color4;}
+  a:hover, h5 {color: $bgHighlight;}
+  a {
+    color: $color4;
+    font-weight: normal;
+    font-style: normal;
+  }
 
 }
+
+.footer-image-update {
+  border-radius: 50%;
+  width: 80%;
+}
+
 
 .section-body {
   background: $color30darken;
-}
-
-.pl-10 {
-  padding-left: 100px;
-}
-
-.page-content {
-  // margin-top: 50px;
-  background-color: $color20darken;
-}
-
-.fill {
-    background-image:   /* top, transparent black, faked with gradient */
-    linear-gradient(
-      rgba(1, 94, 167, 0.95),
-      rgba(1, 94, 167, 0.95)
-    ), url("/assets/img/cheaha-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 20% 10%;
-}​
-
-
-.img-size-small {
-  width: 75px;
-}
-
-
-.anchor {
-  a.anchor {
-      display: block;
-      position: relative;
-      top: -250px;
-      visibility: hidden;
-  }
-}
-
-.banner {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-img-top {
-  max-height: 100%;
-  max-width: 100%;
-  height: 100%;
-    object-fit: cover;
-}
-
-.card-body p {
-  color: black;
-}
-
-.thumbnail img {
-    max-width: 100%;
-    // max-height: 100%;
-    filter: opacity(20%);
-}
-
-.thumbnail {
-  height: 150px;
-}
-
-.card-text, .card-title {
-  color: $color30darken;
-}
-
-.card {
-  color: $color30darken;
-  overflow: hidden;
-  max-width: 100%;
-}
-.card-text {
-    word-wrap: break-word;
 }
 
 
@@ -163,27 +70,8 @@ section h1 {
   color: $colortext;
   font : normal 300 64px/1 'Josefin Sans', sans-serif;
   text-align: center;
-  white-space: nowrap;
+  $light-color-space: nowrap;
 }
-
-.demo a {
-  position: absolute;
-  bottom: 20px;
-  // left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: $color1;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s;
-}
-.demo a:hover {
-  opacity: .5;
-}
-
 
 
 #section01 a {
@@ -196,8 +84,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -215,7 +103,7 @@ section h1 {
   width: 46px;
   height: 46px;
   margin-left: -23px;
-  border: 1px solid #fff;
+  border: 1px solid $light-color;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -227,8 +115,8 @@ section h1 {
   width: 16px;
   height: 16px;
   margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -246,7 +134,7 @@ section h1 {
   width: 46px;
   height: 46px;
   margin-left: -23px;
-  border: 1px solid #fff;
+  border: 1px solid $light-color;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -258,8 +146,8 @@ section h1 {
   width: 16px;
   height: 16px;
   margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -322,8 +210,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -365,8 +253,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
@@ -412,8 +300,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
   -webkit-animation: sdb06 1.5s infinite;
@@ -459,8 +347,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb07 2s infinite;
@@ -517,7 +405,7 @@ section h1 {
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #fff;
+  border: 2px solid $light-color;
   border-radius: 50px;
   box-sizing: border-box;
 }
@@ -529,7 +417,7 @@ section h1 {
   width: 6px;
   height: 6px;
   margin-left: -3px;
-  background-color: #fff;
+  background-color: $light-color;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -546,7 +434,7 @@ section h1 {
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #fff;
+  border: 2px solid $light-color;
   border-radius: 50px;
   box-sizing: border-box;
 }
@@ -558,7 +446,7 @@ section h1 {
   width: 6px;
   height: 6px;
   margin-left: -3px;
-  background-color: #fff;
+  background-color: $light-color;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -570,8 +458,8 @@ section h1 {
   height: 18px;
   content: '';
   margin-left: -9px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid $light-color;
+  border-bottom: 1px solid $light-color;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -589,7 +477,7 @@ section h1 {
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #fff;
+  border: 2px solid $light-color;
   border-radius: 50px;
   box-sizing: border-box;
 }
@@ -601,7 +489,7 @@ section h1 {
   width: 6px;
   height: 6px;
   margin-left: -3px;
-  background-color: #fff;
+  background-color: $light-color;
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
   animation: sdb10 2s infinite;
@@ -638,68 +526,4 @@ section h1 {
   100% {
     opacity: 0;
   }
-}
-
-
-
-.home-text-change {
-  color: $colortext;
-}
-
-.p-override-grey {
-  color: #202124
-}
-
-.card-body h5{
-
-    color: black;
-
-}
-
-.card-body {
-  padding-top: 0;
-}
-
-.card-img-overlay {
-  h3 {
-    font-size: 18px;
-  }
-  h4 {
-    font-size: 16px;
-  }
-  p {
-    font-size: 16px;
-  }
-}
-
-.front-page-text-swap {
-  color: $color7;
-}
-
-.footer-image-update {
-  border-radius: 50%;
-  width: 80%;
-}
-
-.post-content {
-  a {color: $color7;}
-  li, strong {color: white;}
-}
-
-.minutes-read {
-    color: white;
-    margin-bottom: 20px;
-    font-style: italic;
-    font-size: 14px;
-    span {
-      color: white;
-      margin-bottom: 20px;
-      font-style: italic;
-      font-size: 14px;
-    }
-}
-
-.front-page-header {
-  h4 {color: white;}
-  a {color: white;}
 }

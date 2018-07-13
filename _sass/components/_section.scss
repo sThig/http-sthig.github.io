@@ -24,21 +24,19 @@
 
 .section-footer {
   background: $color2;
-  p, a, h3 {color: $color4;}
+  p, a, h3 {color: $color2darkest;}
   a:hover, h5 {color: $bgHighlight;}
   a {
-    color: $color4;
+    color: $color2darkest;
     font-weight: normal;
     font-style: normal;
   }
-
 }
 
 .footer-image-update {
   border-radius: 50%;
   width: 80%;
 }
-
 
 .section-body {
   background: $color30darken;

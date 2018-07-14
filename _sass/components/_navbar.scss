@@ -94,3 +94,7 @@ $dropDown       : false;
   .dropdown-item.active {
     color: $colHighlight;
     background-color: $bgHighlight; }}
+
+  .bottom-shadow {
+    border-bottom: 1px solid $color2;
+  }

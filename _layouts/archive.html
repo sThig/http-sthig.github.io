@@ -1,0 +1,56 @@
+---
+layout: default-internal
+---
+<div class="mt-5">
+  <article class="post">
+    <div class="container-fluid" style="padding: 0">
+      <div class="c-filter img-responsive d-flex align-items-end"
+          style="background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('/assets/img/internal/{{ page.image }}') no-repeat center center; height: 300px; background-size: cover;">
+          <h1 class="ml-5 main-post-title">{{ page.title | escape }}</h1>
+  </div>
+
+    <div class="col-lg-10 col-sm-12 pt-3 pt-3 post-content" style="margin: auto;">
+      {{ content }}
+      <div class="d-flex justify-content-center">
+        {% include card-post-{{ page.passname }}.html %}
+      </div>
+    </div>
+
+    <section class="archive-post-list">
+      <h2>Posts related to: {{ page.title }}</h2>
+
+      {% unless page.content == '' %}
+        <p>{{ page.content }}</p>
+      {% endunless %}
+
+      {% unless site.categories.[page.category] | size > 0 %}
+        <p>No posts in this category at this time.</p>
+      {% endunless %}
+
+      {% for post in site.categories.[page.category] %}
+      <div class="post-preview">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+              <h2 class="post-title">
+                  {{ post.title }}
+              </h2>
+              {% if post.subtitle %}
+              <h3 class="post-subtitle">
+                  {{ post.subtitle }}
+              </h3>
+              {% endif %}
+          </a>
+          <p class="post-meta">
+            Posted by
+            {% if post.author %}
+              {{ post.author }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+            on {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+      </div>
+      <hr>
+      {% endfor %}
+    </section>
+
+  </article>

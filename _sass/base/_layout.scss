@@ -84,7 +84,12 @@
   transition: opacity .3s;
 }
 .demo a:hover {
-  opacity: .5;
+  // opacity: .5;
+  color: $color7;
+  -webkit-transition: color .4s ease-out;
+  -moz-transition: color .4s ease-out;
+  -o-transition: color .4s ease-out;
+  transition: color .4s ease-out;
 }
 
 
@@ -112,4 +117,10 @@
 .front-page-header {
   h4 {color: $light-color;}
   a {color: $light-color;}
+}
+
+.container-medium {
+  padding-left: 100px;
+  padding-right: 100px;
+
 }

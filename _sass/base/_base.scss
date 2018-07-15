@@ -44,8 +44,8 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    color: $colortext;
-    text-decoration: underline;
+    color: $bgHighlight;
+    text-decoration: none;
   }
 
   strong {

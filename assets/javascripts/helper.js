@@ -11,7 +11,7 @@
 //   };
 
 if (window.location.pathname === '/index.html') {
-  const words = ['Engineer', 'Developer', 'Illustrator', 'Cyclist', 'Artist'];
+  const words = ['Engineer', 'Developer', 'Illustrator', 'Artist'];
   const getRandomWord = () => words[Math.floor(Math.random() * words.length)];
   const textswap = document.getElementById('textswap');
   setInterval(() => {

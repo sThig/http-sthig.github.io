@@ -11,18 +11,4 @@ For over 20 years I illustrated for companies across the world and down to the h
 
 I won an award
 
-[jekyll-organization]: https://github.com/jekyll
-
 Recently I've abandoned Illustrator for Affinity's Designer and Photo (I did this because I think Adobe's subscription based model is a rip-off and honestly Affinity is better).
-
-[jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll

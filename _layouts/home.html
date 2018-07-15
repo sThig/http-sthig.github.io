@@ -21,10 +21,22 @@ layout: default
   </div>
   <div>
     <section id="section03" class="demo d-flex justify-content-center">
-      <a href="#uiux"><span></span>More</a>
+      <a href="#about"><span></span>More</a>
     </section>
   </div>
-
+  <div class="d-flex justify-content-center wow fadeIn p-5 section-about" id="about">
+    <div class="col-lg-10">
+      {% include info_section.html
+         section="About
+         Me" title="About Me"
+         image-size="3"
+         paragraph-size="9"
+         subtitle="Jack of all trades, master of a few of them."
+         blurb="I'm really, really good at one or two things and wing the rest"
+         image="me.JPG" content="I've worked in the creative industry for like 20 billion years now. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
+         linktopage="about.html" %}
+    </div>
+  </div>
 <div class="wow fadeIn row p-5 section-uiux m-0" id="uiux">
   <div class="col-lg-6">
     {% include info_section.html
@@ -52,8 +64,8 @@ layout: default
   </div>
 </div>
 
-<div class="wow fadeIn p-5 section-about" id="code">
-  <div class="col-lg-12">
+<div class="d-flex justify-content-center wow fadeIn p-5 section-about" id="code">
+  <div class="col-lg-10">
     {% include info_section.html
       image-size="2"
       paragraph-size="10"
@@ -92,18 +104,5 @@ layout: default
         content="One of my favorite things to do is animate especially using vector animations and Adobe's After effects to create cutting edge gifs"
         linktopage="animation.html" %}
     </div>
-  </div>
-
-<div class="wow fadeIn p-5 section-about" id="about">
-  <div class="col-lg-12">
-    {% include info_section.html
-       section="About
-       Me" title="About Me"
-       image-size="3"
-       paragraph-size="9"
-       subtitle="Jack of all trades, master of a few of them."
-       blurb="I'm really, really good at one or two things and wing the rest"
-       image="me.JPG" content="I've worked in the creative industry for like 20 billion years now. I've illustrated for the Wall Street Journal, animated for Dreamworont End Developer/ UIUX Designer and raced across the country in the tougest mountain bike race in the world."
-       linktopage="about.html" %}
   </div>
 </div>

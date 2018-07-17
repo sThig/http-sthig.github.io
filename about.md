@@ -7,7 +7,7 @@ passname:
 ---
 My name is Scott and I'm a creative and I have my hands in many pots.  I've ridden my mountain bike from Canada to Mexico in the hardest race in the world, [the Tour Divide](http://b-metro.com/the-adventurers-ride-the-divide/14562/) (note, not like that wimpy-pimply race, the [Tour De France](https://www.letour.fr/en/).  
 
-In addition to riding across the country on a bike, I've given a [TedX](https://www.youtube.com/watch?v=7LI1JnKKehU) Talk, published a [book](https://www.amazon.com/Trail-Magic-Art-Soft-Pedaling-ebook/dp/B00NJQZ6GK), shown artwork in [various galleries](https://nakedartusa.com/pages/scott-thigpen), am an Eagle Scout, given lectures at various universities, lived in Puebla, Mexico, like techy gadgets and photography.
+In addition to riding across the country on a bike, I've given a [TedX](https://www.youtube.com/watch?v=7LI1JnKKehU) Talk, published a [book](https://www.amazon.com/Trail-Magic-Art-Soft-Pedaling-ebook/dp/B00NJQZ6GK), shown artwork in [various galleries](https://nakedartusa.com/pages/scott-thigpen), am an Eagle Scout, an INFJ given lectures at various universities, lived in Puebla, Mexico, like techy gadgets and photography.
 
 ### Need to add more copy
 Sun bathe meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat eat the fat cats food

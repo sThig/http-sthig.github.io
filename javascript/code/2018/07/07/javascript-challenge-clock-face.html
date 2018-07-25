@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Thigpen Designs | Your awesome title</title>
+<meta name="generator" content="Jekyll v3.8.2" />
+<meta property="og:title" content="About" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/about/" />
+<meta property="og:url" content="http://localhost:4000/about/" />
+<meta property="og:site_name" content="Your awesome title" />
+<script type="application/ld+json">
+{"name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/about/","headline":"About","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
+<!-- Bootstrap CSS -->
+<!-- <link rel="stylesheet" href="assets/animate.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+<body class="section-body">
+<nav class="navbar navbar-dark navbar-expand bg-primary flex-column flex-md-row">
+    <a class="ml-3 navbar-brand" href="../">Thigpen Designs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <li class="nav-item">
+          <a class="nav-link" href="../pages/about.html">About</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/design-ux.html">UIUX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/code.html">Front End</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/illustration.html">Illustration</a>
+        <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/animation.html">Animation</a></li>
+
+
+      </ul>
+    </div>
+</nav>
+<main class="page-content" aria-label="Content">
+  <div class="container mt-5">
+    <div class="col-lg-10 mx-auto">
+
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Javascript Challenge Clock Face</h1>
+    <div class="mb-2">
+      <span class="minutes-read">
+        
+
+        
+        This will take you about 1 minutes to read
+        
+      </span>
+    </div>
+    <!-- <p class="post-meta">
+      <time class="dt-published" datetime="2018-07-07T13:11:00-05:00" itemprop="datePublished">Jul 7, 2018
+      </time></p> -->
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+
+      <h3 id="tick-tock">Tick Tock</h3>
+
+<p>Following Wes Bos’s tutorials on vanilla javascript is great and he’s such a good teacher.  He gave a nice run down of how you can use ES6’s template litearals, CSS animations and math to create a functioning clock.</p>
+
+<h3 id="what-i-learned">What I learned</h3>
+
+<p>More emphasis on <code class="highlighter-rouge">querySelector</code> having it grab the class of each hand of the clock to manipulate it like so:</p>
+
+<p><code class="highlighter-rouge">const hourHand = document.querySelector('.hour-hand');</code></p>
+
+<p>Once you have this (and minutes, seconds) you can then apply the math to each hand to rotate on a second, minute or hour (sadly math is not my strong suit so I had to really rely on the internet on how to make stuff rotate according to time).</p>
+
+<h3 id="css-animations">CSS animations</h3>
+
+<p>This was the fun part for me.  Taking the <code class="highlighter-rouge">.hand</code> class and adding in <code class="highlighter-rouge">transform</code> and <code class="highlighter-rouge">transition</code> I was able to get it to rotate not only around in the center (like a wagon wheel) but at a point of origin where I wanted. (Usually ‘transform-origin’ is at 50% and you have to set it at 100%).</p>
+
+<p>Playing with the cubic-bezier in <code class="highlighter-rouge">transition-timing-function</code> is particularly gratifying when playing with it in the console log.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css">  <span class="nc">.hand</span> <span class="p">{</span>
+      <span class="nl">width</span><span class="p">:</span><span class="m">50%</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span><span class="m">6px</span><span class="p">;</span>
+      <span class="nl">background</span><span class="p">:</span><span class="no">black</span><span class="p">;</span>
+      <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+      <span class="nl">top</span><span class="p">:</span><span class="m">50%</span><span class="p">;</span>
+      <span class="nl">transform-origin</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+      <span class="nl">transform</span><span class="p">:</span> <span class="n">rotate</span><span class="p">(</span><span class="m">90deg</span><span class="p">);</span>
+      <span class="nl">transition</span><span class="p">:</span> <span class="n">all</span> <span class="m">0.05s</span><span class="p">;</span>
+      <span class="nl">transition-timing-function</span><span class="p">:</span> <span class="n">cubic-bezier</span><span class="p">(</span><span class="m">0.1</span><span class="p">,</span> <span class="m">2.7</span><span class="p">,</span> <span class="m">0.58</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+    <span class="p">}</span>
+    </code></pre></figure>
+
+<h3 id="the-result">The Result</h3>
+
+<p>Here is the code for my clock interface.  I didn’t focus much on style and left it more for Javascript (will get to more styled and well designe stuff, later.)</p>
+
+<p data-height="265" data-theme-id="light" data-slug-hash="QxevLW" data-default-tab="js" data-user="sthig" data-embed-version="2" data-pen-title="Clock Face Javascript" class="codepen">See the Pen <a href="https://codepen.io/sthig/pen/QxevLW/">Clock Face Javascript</a> by scott thigpen (<a href="https://codepen.io/sthig">@sthig</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+
+  </div><a class="u-url" href="/javascript/code/2018/07/07/javascript-challenge-clock-face.html" hidden></a>
+</article>
+
+<!-- <div class="post-categories">
+  
+  
+  <a href="/categories/#javascript">javascript</a>
+  &nbsp;
+  
+  <a href="/categories/#code">code</a>
+  
+  
+</div> -->
+
+    </div>
+          </div>
+    </main><footer class="footer">
+  <div class="container">
+    <div class="text-center py-5">
+      <a class="footer-link" target="_blank" href="https://twitter.com/sthig">
+        <img class="footer-logo mb-3" src="https://s3-us-west-2.amazonaws.com/storm-app/proctoru-open-source.svg" alt="Proctoru open source">
+</a>
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item">
+          <a class="text-muted" target="_blank" href="https://github.com/sThig">GitHub</a>
+        </li>
+        <li class="list-inline-item">·</li>
+        <li class="list-inline-item">
+          <a class="text-muted" target="_blank" href="https://twitter.com/sthig">Twitter</a>
+        </li>
+        <li class="list-inline-item">·</li>
+        <li class="list-inline-item">
+          <a class="text-muted" target="_blank" href="https://www.facebook.com/sthig">Facebook</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <!-- Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/assets/javascripts/helper.js"></script>
+    <script src="/assets/javascripts/wow.js"></script>
+    <script>new WOW().init();</script>
+  </body>
+</html>
+</body>
+
+</html>

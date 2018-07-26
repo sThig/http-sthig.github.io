@@ -41,3 +41,5 @@ gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-archives'
 
 gem 'hootstrap'
+
+gem "jekyll-assets", group: :jekyll_plugins

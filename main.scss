@@ -1,26 +1,24 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
-
-// @import "hootstrap";
 @import "base/layout";
 @import "base/type";
 @import "base/variables";
 @import "base/base";
-
 @import "components/card";
+@import "components/alert";
 @import "components/code";
 @import "components/navbar";
 @import "components/post";
 @import "components/section";
-
 @import "utils/animate";
 // @import 'bootstrap/functions';
 // @import 'hootstrap/base/base';
 // @import 'bootstrap/variables';
 // @import 'bootstrap';
 //
-@import 'hootstrap/reset/base';
-@import 'hootstrap/components/base';
-@import 'hootstrap/patterns/base';
-@import 'hootstrap/utils/base';
+// @import 'hootstrap';
+// @import 'hootstrap/reset/base';
+// @import 'hootstrap/components/base';
+// @import 'hootstrap/patterns/base';
+// @import 'hootstrap/utils/base';

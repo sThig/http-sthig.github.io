@@ -24,7 +24,10 @@ github_username:  sthig
 
 # Build settings
 markdown: kramdown
-# theme: minima
+theme: minima
+gems: [bootstrap, autoprefixer-rails, jekyll-assets]
+sass:
+  sass_dir: _sass
 # theme: jekyll-theme-primer
 
 plugins:

@@ -65,7 +65,7 @@ GEM
     forwardable-extended (2.6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    hootstrap (0.4.0)
+    hootstrap (0.5.0)
       bootstrap (~> 4.0.0)
       rails (>= 4.2.0)
       sass-rails
@@ -214,6 +214,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
+  bootstrap (~> 4.0.0.alpha3)
   hootstrap
   jekyll (~> 3.8.2)
   jekyll-admin

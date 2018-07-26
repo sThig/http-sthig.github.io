@@ -3,7 +3,14 @@
     <a href="{{ post.url | remove: '<p>' | remove: '</p>' }}" ><h3 class="card-title mt-0">{{ post.title | remove: '<p>' }}</h3></a>
     <div class="d-flex flex-row">
       <div <div class="col-2 p-0">
-        <a href="{{ post.url | remove: '<p>' }}"><img class="footer-image-update" src="/assets/img/{{ post.image }}"  /></a>
+        <a href="{{ post.url | remove: '<p>' }}">
+          <!-- <img class="footer-image-update" src="/assets/img/{{ post.image }}"  /> -->
+          <div class="d-flex mr-3">
+            <img width="40" height="40"
+              class="rounded-circle"
+              src="assets/img/{{ post.image }}" />
+          </div>
+        </a>
       </div>
       <div class="col-10">
         {{ post.excerpt | remove: '<p>' | truncatewords: 20 }}

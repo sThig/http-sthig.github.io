@@ -1,11 +1,29 @@
-<div class="card-deck col-sm-12 cold-md-12 mb-3">
-  {% for post in site.categories.animation %}
-  <div class="card thumbnail wow fadeIn">
-    <img class="card-img-top mb-0" src="/assets/img/{{ post.image }}" alt="{{ post.title }}">
-    <div class="card-img-overlay">
-      <a href="{{ post.url }}" ><h3 class="card-title mt-0">{{ post.title }}</h3></a>
-      <a href="{{ post.url }}" ><p class="card-text">{{ post.excerpt }}</p></a>
-    </div>
-  </div>
+<div class="container-fluid">
+  <div class="row d-flex justify-content-center">
+    {% for post in site.categories.illustration %}
+    <div class="card col-lg-3 d-flex align-items-stretch m-1">
+      <div>
+
+        <div class="card-body">
+          <div class="media">
+            <div class="d-flex mr-3">
+              <img width="40" height="40"
+              class="rounded-circle"
+              src="/assets/img/{{ post.image }} " alt="{{ post.title }}" />
+            </div>
+
+            <div class="media-body">
+              <h6 class="mb-1">{{ post.title }}</h6>
+              <p class="text-muted">{{ post.excerpt }}</p>
+            </div>
+          </div>
+
+          <p class="mb-0">
+            {{ include.content }}
+          </p>
+          <a href="{{ post.url }}">Learn More</a>
+        </div>
+      </div>
+      </div>
 {% endfor %}
 </div>

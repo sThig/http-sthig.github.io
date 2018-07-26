@@ -1,19 +1,21 @@
-<div class="row">
-  <h3 class="ml-2">{{ include.subtitle }}</h3>
-</div>
-<div class="row">
-  <p class="ml-2 "><i>{{ include.blurb }}</i></p>
-  <div class="row">
-        <div class="col-xs-12 col-lg-{{ include.image-size }}">
-          <img class="img-circle img-size-small b-lazy" data-src="assets/img/{{ include.image }}" src="assets/img/{{ include.image }}" />
-        </div>
-        <div  class="col-xs-12 col-lg-{{ include.paragraph-size }}">
-          <p class="">
-            {{ include.content }}
-          </p>
-          <p>
-            Learn more by clicking <a href="pages/{{ include.linktopage }}">here</a>.
-          </p>
-        </div>
+<div class="card">
+  <div class="card-body">
+    <div class="media">
+      <div class="d-flex mr-3">
+        <img width="40" height="40"
+          class="rounded-circle"
+          src="assets/img/{{ include.image }}" />
+      </div>
+
+      <div class="media-body">
+        <h6 class="mb-1">{{ include.title }}</h6>
+        <p class="text-muted">{{ include.subtitle }}</p>
+      </div>
+    </div>
+
+    <p class="mb-0">
+      {{ include.content }}
+    </p>
+    <a href="pages/{{ include.linktopage }}">Learn More</a>
   </div>
 </div>

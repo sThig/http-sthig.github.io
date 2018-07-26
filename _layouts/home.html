@@ -2,70 +2,57 @@
 layout: default
 ---
 
-<div class="d-flex flex-column row-grey-height">
+<div>
+  <div class="d-flex">
+    <div class="jumbotron">
+      <div class="col-lg-8 mx-auto">
 
-  <div class="section-hello fixed-height fill d-flex justify-content-center align-items-center"  id="home">
-    <div class="flex-wrap d-flex justify-content-left col-lg-3 front-page-header">
+        <img width="50" height="50"
+        class="rounded-circle float-left mr-2"
+        src="assets/img/me.JPG" />
+        <h1 class="display-4">Hi, I'm Scott</h1>
 
-      <div class="row">
-        <div class="col">
-          <h4>Hi, I'm Scott Thigpen</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h4>And I'm a creative <span class="front-page-text-swap" id="textswap"> person </span>.</h4>
-        </div>
+        <p class="lead">I've worked in the creative industry for over twenty years. I've illustrated for the Wall Street Journal, animated for Dreamworks, work as a Front End Developer as well as a UIUX Designer and raced across the country in the tougest mountain bike race in the world.</p>
+        <hr class="my-4">
+        <p>Learn more about me</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="./pages/about.html" role="button">Learn more</a>
+        </p>
       </div>
     </div>
   </div>
-  <div>
-    <section id="section03" class="demo d-flex justify-content-center">
-      <a href="#about"><span></span>More</a>
-    </section>
-  </div>
-  <div class="d-flex justify-content-center wow fadeIn p-5 section-about" id="about">
-    <div class="col-lg-10">
+
+<div class="container mx-auto col-lg-8">
+<div class="row">
+
+  <div class="col-lg-6 mx-auto my-3 d-flex align-items-stretch">
+    {% include info_section.html
+      image-size="3"
+      paragraph-size="7"
+      section="code"
+      title="UX"
+      subtitle="User Experience"
+      blurb="Have empathy for your users"
+      image="ux.jpg"
+      content="Starting with doodles on napkins and ending with wireframes, I care about crafting out an user experience that's ubiquitous"
+      linktopage="design-ux.html" %}
+    </div>
+    <div class="col-lg-6 mx-auto my-3 d-flex align-items-stretch">
       {% include info_section.html
-         section="About
-         Me" title="About Me"
-         image-size="3"
-         paragraph-size="9"
-         subtitle="Jack of all trades, master of a few of them."
-         blurb="Everything else I just fake it"
-         image="me.JPG" content="I've worked in the creative industry for over twenty years. I've illustrated for the Wall Street Journal, animated for Dreamworks, work as a Front End Developer as well as a UIUX Designer and raced across the country in the tougest mountain bike race in the world."
-         linktopage="about.html" %}
-    </div>
-  </div>
-<div class="wow fadeIn row p-5 section-uiux m-0" id="uiux">
-  <div class="col-lg-6">
-    {% include info_section.html
-      image-size="3"
-      paragraph-size="7"
-       section="code"
-       title="UX"
-       subtitle="User Experience"
-       blurb="Have empathy for your users"
-       image="ux.jpg"
-       content="Starting with doodles on napkins and ending with wireframes, I care about crafting out an user experience that's ubiquitous"
-       linktopage="design-ux.html" %}
-  </div>
-  <div class="col-lg-6">
-    {% include info_section.html
-      image-size="3"
-      paragraph-size="7"
-       section="code"
-       title="UI"
-       subtitle="User Interface"
-       blurb="Pixel Perfect Slickness"
-       image="/cats/ui/bearfinal-front.gif"
-       content="I build user interfaces that are creative, practical and delight the user as well caring about the developers who code it."
-       linktopage="design-ui.html" %}
-  </div>
+        image-size="3"
+        paragraph-size="7"
+        section="code"
+        title="UI"
+        subtitle="User Interface"
+        blurb="Pixel Perfect Slickness"
+        image="/cats/ui/bearfinal-front.gif"
+        content="I build user interfaces that are creative, practical and delight the user as well caring about the developers who code it."
+        linktopage="design-ui.html" %}
+      </div>
 </div>
+<div class="row">
 
-<div class="d-flex justify-content-center wow fadeIn p-5 section-about" id="code">
-  <div class="col-lg-10">
+  <div class="col-lg-12 mx-auto my-3 d-flex align-items-stretch">
     {% include info_section.html
       image-size="2"
       paragraph-size="10"
@@ -76,23 +63,21 @@ layout: default
       image="code-illo.png"
       content="This section is relevant If words like ES6, React, HAML, Sass, Atom, Foo, Bootstrap, 'Hello World!' and Github mean anything to you."
       linktopage="code.html" %}
-  </div>
-</div>
-
-
-  <div class="wow fadeIn row p-5 section-illo m-0" id="illustration">
-    <div class="col-md-6">
-      {% include info_section.html
-        image-size="3"
-        paragraph-size="7"
-        section="illustration"
-        title="Illustration"
-        subtitle="Illustration"
-        blurb="From icon.svgs to illustrated book covers, I've done it all"
-        image="nuyu.jpg" content="For over twenty years I've been an illustrator working for companies like the Wall Street Journal, Dreamworks, Coca Cola, Toyota, Snapple and McGraw Hill to name a few."
-        linktopage="illustration.html" %}
     </div>
-    <div class="col-md-6">
+</div>
+<div class="row">
+  <div class="col-lg-6 mx-auto my-3 d-flex align-items-stretch">
+    {% include info_section.html
+      image-size="3"
+      paragraph-size="7"
+      section="illustration"
+      title="Illustration"
+      subtitle="Illustration"
+      blurb="From icon.svgs to illustrated book covers, I've done it all"
+      image="nuyu.jpg" content="For over twenty years I've been an illustrator working for companies like the Wall Street Journal, Dreamworks, Coca Cola, Toyota, Snapple and McGraw Hill to name a few."
+      linktopage="illustration.html" %}
+    </div>
+    <div class="col-lg-6 mx-auto my-3 d-flex align-items-stretch">
       {% include info_section.html
         image-size="3"
         paragraph-size="7"
@@ -103,6 +88,9 @@ layout: default
         image="kedi.gif"
         content="One of my favorite things to do is animate especially using vector animations and Adobe's After effects to create cutting edge gifs"
         linktopage="animation.html" %}
+      </div>
+</div>
+
+
     </div>
-  </div>
 </div>

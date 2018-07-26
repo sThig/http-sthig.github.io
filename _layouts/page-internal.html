@@ -1,19 +1,25 @@
 ---
-layout: default-internal
+layout: default
 ---
-<div class="mt-5">
-  <article class="post">
-    <div class="container-fluid" style="padding: 0">
-      <div class="c-filter img-responsive d-flex align-items-end"
-          style="background: #0E97FF no-repeat center center; height: 300px; background-size: cover;">
-          <h1 class="ml-5 main-post-title">{{ page.title | escape }}</h1>
-  </div>
+<div>
 
-    <div class="col-lg-10 col-sm-12 pt-3 pt-3 post-content" style="margin: auto;">
-      {{ content }}
-      <div class="d-flex justify-content-center">
-        {% include card-post-{{ page.passname }}.html %}
+  <div class="d-flex">
+
+    <div class="jumbotron">
+      <div class="col-lg-8 mx-auto">
+
+        <img width="50" height="50"
+        class="rounded-circle float-left mr-2"
+        src="/assets/img/ux.JPG" />
+        <h1 class="display-4">{{ page.title | escape }}</h1>
+        <p class="lead">{{ content }}</p>
       </div>
     </div>
+  </div>
 
-  </article>
+  <div>
+    <div class="d-flex justify-content-center">
+      {% include card-post-{{ page.passname }}.html %}
+    </div>
+  </div>
+</div>

@@ -45,6 +45,9 @@ GEM
       autoprefixer-rails (>= 6.0.3)
       popper_js (>= 1.12.9, < 2)
       sass (>= 3.5.2)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -97,6 +100,9 @@ GEM
       pathutil (>= 0.8)
       rack (~> 1.6)
       sprockets (~> 3.3, < 3.8)
+    jekyll-bootstrap-sass (0.1.0)
+      bootstrap-sass (~> 3.3)
+      jekyll (>= 2.5)
     jekyll-compose (0.8.0)
       jekyll (~> 3.0)
     jekyll-feed (0.10.0)
@@ -213,6 +219,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-archives
   jekyll-assets
+  jekyll-bootstrap-sass
   jekyll-compose
   jekyll-sass-converter
   minima (~> 2.0)

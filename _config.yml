@@ -46,6 +46,10 @@ plugins:
 
 # Assets
 
+gems:
+  - jekyll-bootstrap-sass
+
+
 defaults:
   - scope:
       path: "assets/img"

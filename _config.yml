@@ -16,7 +16,7 @@
 title: Thigpen Designs
 email: scott.thigpen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Something Something, I'm cool!
+  Something Something, I'm cool.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sthig.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sthig
@@ -25,12 +25,12 @@ github_username:  sthig
 # Build settings
 markdown: kramdown
 # theme: minima
-theme: jekyll-theme-primer
+# theme: jekyll-theme-primer
 
 plugins:
-  - hootstrap
   - jekyll-feed
   - jekyll-assets
+  - hootstrap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,10 +46,6 @@ plugins:
 
 # Assets
 
-gems:
-  - jekyll-bootstrap-sass
-
-
 defaults:
   - scope:
       path: "assets/img"
@@ -58,6 +54,9 @@ defaults:
 
 
 sass:
+  load_paths:
+    - _sass
+    - node_modules
   style: compact # possible values: nested expanded compact compressed
 
 jekyll-archives:

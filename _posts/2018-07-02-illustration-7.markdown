@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration I did for the Wall Street Journal
 
-![image-title-here](/assets/img/cats/illo/abduction.png){:class="img-responsive"}
+![image-title-here](/assets/img/cats/illo/abduction.png){:class="img-fluid"}

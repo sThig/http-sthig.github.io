@@ -10,4 +10,4 @@ categories: animation
 
 Hand-drawn and finished in Adobe After Effects
 
-![image-title-here](/assets/img/cats/animation/dance_again.gif){:class="img-responsive"}
+![image-title-here](/assets/img/cats/animation/dance_again.gif){:class="img-fluid"}

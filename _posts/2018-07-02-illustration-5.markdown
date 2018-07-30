@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration of the Alabama Theater
 
-![image-title-here](/assets/img/cats/illo/alabama.jpg){:class="img-responsive"}
+![image-title-here](/assets/img/cats/illo/alabama.jpg){:class="img-fluid"}

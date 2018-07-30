@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration of a book cover for my book
 
-![image-title-here](/assets/img/cats/illo/23.png){:class="img-responsive"}
+![image-title-here](/assets/img/cats/illo/23.png){:class="img-fluid"}

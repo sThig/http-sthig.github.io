@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration of Edwards Scissorhands
 
-![image-title-here](/assets/img/cats/illo/edward.png){:class="img-responsive"}
+![image-title-here](/assets/img/cats/illo/edward.png){:class="img-fluid"}

@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration I did of a wolf
 
-![image-title-here](/assets/img/cats/illo/wolf.jpg){:class="img-responsive"}
+![image-title-here](/assets/img/cats/illo/wolf.jpg){:class="img-fluid"}

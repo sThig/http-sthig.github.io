@@ -2,7 +2,7 @@
 layout: page-internal
 title: Illustration
 permalink: /pages/illustration
-image: 4.JPG
+image: illustration.svg
 passname: illustration
 ---
 In the 90s I got my first illustration project which was to illustrate a flyer for a frat party.  It was my first illustration project that got me hooked which led to bigger clients like BBVA/Compass bank, The Wall Street Journal, 1Dreamworks, Coca Cola, Snapple and Toyota to name a few.

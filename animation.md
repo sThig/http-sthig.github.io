@@ -2,7 +2,7 @@
 layout: page-internal
 title: Animation
 permalink: /pages/animation
-image: 6.JPG
+image: animation.svg
 passname: animation
 ---
 

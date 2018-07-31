@@ -2,7 +2,7 @@
 layout: page-internal
 title: Front End Development
 permalink: /pages/code
-image: code-cat.jpg
+image: code.svg
 cat: code
 passname: code
 ---

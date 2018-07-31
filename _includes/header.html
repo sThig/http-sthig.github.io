@@ -1,28 +1,28 @@
+{% include nav-assign.html  %}
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="../">Thigpen Designs</a>
+  <a class="navbar-brand" href="{{site.url}}">
+    <img src="{{base}}/assets/img/logos/bear-logo-white-head.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Thigpen Designs</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <li class="nav-item">
-        <a class="nav-link" href="../pages/about.html">About</a>
+        <a class="nav-link" href="{{base}}/pages/about.html">About</a>
       </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/design-ux.html">UIUX</a>
+          <a class="nav-link" href="{{base}}/pages/design-ux.html">UIUX</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/code.html">Front End</a>
+          <a class="nav-link" href="{{base}}/pages/code.html">Front End</a>
         </li>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/illustration.html">Illustration</a>
+        <a class="nav-link" href="{{base}}/pages/illustration.html">Illustration</a>
       <li class="nav-item">
         <li class="nav-item">
-          <a class="nav-link" href="../pages/animation.html">Animation</a></li>
+          <a class="nav-link" href="{{base}}/pages/animation.html">Animation</a></li>
     </ul>
-
   </div>
 </nav>

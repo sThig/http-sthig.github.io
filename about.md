@@ -13,6 +13,6 @@ Oh, and I've ridden my mountain bike from Canada to Mexico in the hardest race i
 
 I also enjoy photography and I play well with others.
 
-<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="I make websites and draw.">
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="I code websites, apps and draw.">
   What is it you do again?
 </button>

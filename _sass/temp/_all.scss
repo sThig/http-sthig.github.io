@@ -141,10 +141,12 @@ a {
   color: #0072b1;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects;
+}
   a:hover {
     color: #004165;
-    text-decoration: underline; }
+    text-decoration: underline;
+  }
 
 a:not([href]):not([tabindex]) {
   color: inherit;

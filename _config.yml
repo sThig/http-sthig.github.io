@@ -49,6 +49,8 @@ plugins:
 
 # Assets
 
+permalink: /blog/:title/
+
 defaults:
   - scope:
       path: "assets/img"

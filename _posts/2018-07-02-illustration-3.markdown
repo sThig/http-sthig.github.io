@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration of Strongman with a quote
 
-![image-title-here](/assets/img/cats/illo/dribbb-strongman.jpg){:class="img-fluid"}
+![image-title-here](/assets/img/cats/illo/dribbb-strongman.jpg){:class="img-fluid mx-auto d-block"}

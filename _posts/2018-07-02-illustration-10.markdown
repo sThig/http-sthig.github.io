@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration I did of a deer
 
-![image-title-here](/assets/img/cats/illo/xmasad.jpg){:class="img-fluid"}
+![image-title-here](/assets/img/cats/illo/xmasad.jpg){:class="img-fluid mx-auto d-block"}

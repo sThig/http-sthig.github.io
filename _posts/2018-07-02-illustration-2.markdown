@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration of Maleficent
 
-![image-title-here](/assets/img/cats/illo/dribbb-mal.jpg){:class="img-fluid"}
+![image-title-here](/assets/img/cats/illo/dribbb-mal.jpg){:class="img-fluid mx-auto d-block"}

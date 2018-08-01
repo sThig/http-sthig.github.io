@@ -10,4 +10,4 @@ categories: animation
 
 Hand-drawn and finished in Adobe After Effects
 
-![image-title-here](/assets/img/cats/animation/final_18.gif){:class="img-fluid"}
+![image-title-here](/assets/img/cats/animation/final_18.gif){:class="img-fluid mx-auto d-block"}

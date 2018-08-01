@@ -9,4 +9,4 @@ categories: illustration
 
 Illustration I did for Sloss Furnace
 
-![image-title-here](/assets/img/cats/illo/sloss.png){:class="img-fluid"}
+![image-title-here](/assets/img/cats/illo/sloss.png){:class="img-fluid mx-auto d-block"}

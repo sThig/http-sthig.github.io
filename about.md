@@ -19,8 +19,8 @@ I also enjoy photography and I play well with others.
 * What is it you do again?
   >> I make websites and apps look pretty through various flavors of code
 
-* What is it you do again?
-  >> I make websites and apps look pretty through various flavors of code
+* Why the bear?
+  >> Not merely *bear* what is necessary...but love it - Marcus Aurelius
 
 
 

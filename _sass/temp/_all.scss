@@ -2202,15 +2202,15 @@ fieldset:disabled a.btn {
   line-height: 1.5;
   border-radius: 0.2rem; }
 
-.btn-block {
+.btn-sm {
   display: block;
   width: 100%; }
-  .btn-block + .btn-block {
+  .btn-sm + .btn-sm {
     margin-top: 0.5rem; }
 
-input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-input[type="button"].btn-block {
+input[type="submit"].btn-sm,
+input[type="reset"].btn-sm,
+input[type="button"].btn-sm {
   width: 100%; }
 
 .fade {

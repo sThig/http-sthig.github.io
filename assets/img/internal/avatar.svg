@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
-    <g transform="matrix(0.0683685,0,0,0.0683685,-6.6888,-2.70797)">
+<svg width="100%" height="100%" viewBox="0 0 922 916" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;">
+    <g id="Layer-1" serif:id="Layer 1">
+        <rect x="-15.256" y="-20.365" width="963.489" height="1001.78" style="fill:rgb(255,148,0);"/>
+    </g>
+    <g transform="matrix(1.13232,0,0,1.13232,-53.3258,-55.3693)">
         <clipPath id="_clip1">
             <path d="M19.5,455.5C19.5,700.715 218.286,899.5 463.5,899.5C708.715,899.5 907.5,700.715 907.5,455.5C907.5,210.286 708.715,11.5 463.5,11.5C218.286,11.5 19.5,210.286 19.5,455.5Z" clip-rule="nonzero"/>
         </clipPath>
@@ -45,10 +48,10 @@
                 <path d="M0,2.507C-0.467,19.412 -21.192,32.554 -46.292,31.862C-71.393,31.17 -91.362,16.904 -90.896,0C-90.43,-16.905 -69.704,-30.047 -44.604,-29.355C-19.504,-28.662 0.466,-14.397 0,2.507" style="fill:rgb(65,144,195);fill-rule:nonzero;"/>
             </g>
             <g transform="matrix(1,0,0,1,586.786,509.951)">
-                <path d="M0,-167.523C-13.917,-180.258 -67.869,-184.321 -91,-158.281C-91.036,-156.977 -95.2,-0.851 -95.2,-0.851C-95.2,-0.851 -131.601,16.798 -182.29,-14.446" style="fill:none;stroke:rgb(5,54,80);stroke-width:6.09px;"/>
+                <path d="M0,-167.523C-13.917,-180.258 -67.869,-184.321 -91,-158.281C-91.036,-156.977 -95.2,-0.851 -95.2,-0.851C-95.2,-0.851 -131.601,16.798 -182.29,-14.446" style="fill:none;stroke:rgb(5,54,80);stroke-width:11.36px;"/>
             </g>
             <g transform="matrix(-0.988481,-0.151345,-0.151345,0.988481,352.703,301.809)">
-                <path d="M-79.309,31.571C-79.309,31.571 -42.716,-0.872 -1.507,31.571" style="fill:none;stroke:rgb(5,54,80);stroke-width:6.09px;"/>
+                <path d="M-79.309,31.571C-79.309,31.571 -42.716,-0.872 -1.507,31.571" style="fill:none;stroke:rgb(5,54,80);stroke-width:11.36px;"/>
             </g>
             <g transform="matrix(1,0,0,1,569.001,397.695)">
                 <path d="M0,-16.416C7.394,-12.853 12.115,-8.564 12.635,-8.267C8.875,-4.509 4.244,-1.83 -0.826,0C0.405,-2.631 1.115,-5.534 1.2,-8.608C1.276,-11.348 0.847,-13.985 0,-16.416" style="fill:rgb(5,54,80);fill-rule:nonzero;"/>
@@ -159,10 +162,10 @@
                 </g>
             </g>
             <g transform="matrix(1,0,0,1,416.578,355.882)">
-                <path d="M0,75.08L-78.912,72.485C-85.513,72.268 -90.736,66.69 -90.52,60.089L-88.925,11.608C-88.708,5.006 -83.129,-0.217 -76.528,0L2.383,2.595C8.984,2.812 14.208,8.391 13.991,14.992L12.396,63.473C12.18,70.074 6.601,75.297 0,75.08Z" style="fill:none;stroke:rgb(19,68,97);stroke-width:6.09px;stroke-linecap:butt;"/>
+                <path d="M0,75.08L-78.912,72.485C-85.513,72.268 -90.736,66.69 -90.52,60.089L-88.925,11.608C-88.708,5.006 -83.129,-0.217 -76.528,0L2.383,2.595C8.984,2.812 14.208,8.391 13.991,14.992L12.396,63.473C12.18,70.074 6.601,75.297 0,75.08Z" style="fill:none;stroke:rgb(19,68,97);stroke-width:3.41px;stroke-linecap:butt;"/>
             </g>
             <g transform="matrix(1,0,0,1,599.108,361.884)">
-                <path d="M0,75.08L-78.911,72.485C-85.513,72.268 -90.736,66.69 -90.519,60.088L-88.925,11.607C-88.708,5.006 -83.129,-0.217 -76.528,0L2.384,2.595C8.984,2.812 14.208,8.391 13.991,14.992L12.396,63.473C12.18,70.074 6.602,75.297 0,75.08Z" style="fill:none;stroke:rgb(19,68,97);stroke-width:6.09px;stroke-linecap:butt;"/>
+                <path d="M0,75.08L-78.911,72.485C-85.513,72.268 -90.736,66.69 -90.519,60.088L-88.925,11.607C-88.708,5.006 -83.129,-0.217 -76.528,0L2.384,2.595C8.984,2.812 14.208,8.391 13.991,14.992L12.396,63.473C12.18,70.074 6.602,75.297 0,75.08Z" style="fill:none;stroke:rgb(19,68,97);stroke-width:3.41px;stroke-linecap:butt;"/>
             </g>
         </g>
     </g>

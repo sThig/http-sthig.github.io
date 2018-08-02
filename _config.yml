@@ -35,8 +35,33 @@ plugins:
   - jekyll-assets
   - hootstrap
 
-collections:
-    - user_interface
+# collections:
+#   userinterface:
+#     output: true
+#   code:
+#     output: true
+#   about:
+#     output: true
+#   userexperience:
+#     output: true
+#   animation:
+#     output: true
+#   illustration:
+#     output: true
+#     permalink: /temp/:name
+# collections_dir: temp
+
+# collections:
+#   userinterface:
+#     output: true
+#     permalink: /user-interface/:name
+
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "user-interface"
+#     values:
+#       layout: user-interface
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -52,7 +77,7 @@ collections:
 
 # Assets
 
-# permalink: /:title/
+permalink: pretty
 
 breadcrumbs:
   root:

@@ -1,4 +1,10 @@
-{% include nav-assign.html  %}
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth <= 1 %}{% assign base = '.' %}
+{% elsif depth == 2 %}{% assign base = '..' %}
+{% elsif depth == 3 %}{% assign base = '../..' %}
+{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="{{site.url}}">
     <img src="{{base}}/assets/img/logos/bear-logo-white-head.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Thigpen Designs</a>

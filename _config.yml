@@ -35,6 +35,9 @@ plugins:
   - jekyll-assets
   - hootstrap
 
+collections:
+    - user_interface
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -49,7 +52,12 @@ plugins:
 
 # Assets
 
-permalink: /blog/:title/
+# permalink: /:title/
+
+breadcrumbs:
+  root:
+    hide: false  # show breadcrumbs on root/home page
+    image: false # Show image or title text
 
 defaults:
   - scope:

@@ -39,6 +39,13 @@ collections:
   userinterface:
     output: true
     permalink: /user-interface/:name
+
+  defaults:
+  - scope:
+      path: ""
+      type: "animals"
+    values:
+      layout: default
   # userinterface:
   #   output: true
   # code:

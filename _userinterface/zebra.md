@@ -1,4 +1,5 @@
 ---
+layout: page-internal
 title: Zebra
 class: 	Mammalia
 family: Equidae

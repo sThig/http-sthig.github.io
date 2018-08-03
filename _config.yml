@@ -35,21 +35,25 @@ plugins:
   - jekyll-assets
   - hootstrap
 
-# collections:
-#   userinterface:
-#     output: true
-#   code:
-#     output: true
-#   about:
-#     output: true
-#   userexperience:
-#     output: true
-#   animation:
-#     output: true
-#   illustration:
-#     output: true
-#     permalink: /temp/:name
+collections:
+  userinterface:
+    output: true
+    permalink: /user-interface/:name
+  # userinterface:
+  #   output: true
+  # code:
+  #   output: true
+  # about:
+  #   output: true
+  # userexperience:
+  #   output: true
+  # animation:
+  #   output: true
+  # illustration:
+  #   output: true
 # collections_dir: temp
+
+
 
 # collections:
 #   userinterface:

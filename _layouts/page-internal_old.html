@@ -12,43 +12,43 @@ layout: default
         class="rounded-circle float-left mr-2"
         src="/assets/img/internal/{{ page.image }}" />
         <h1 class="display-4">{{ page.title | escape }}</h1>
-        <p class="lead">{{ content }}</p>
+        <p class="lead">{{ page.content }}</p>
       </div>
     </div>
   </div>
+
   <div>
     <div class="d-flex justify-content-center">
       <div class="container-fluid">
         <div class="col-lg-10 mx-auto row d-flex justify-content-center mt-3" style="max-width: 1400px">
-          {% for interfaces in site.userinterface %}
-            {% if interfaces.passname == 'ui' %}
+          {% for post in site.categories[page.passname]%}
           <div class="card col-sm-12 col-lg-3 m-2">
             <div class="card-body d-flex flex-column">
               <div class="media">
                 <div class="d-flex mr-3">
-                  <a href="{{ interfaces.url }}">
+                  <a href="{{ post.url }}">
                     <img width="40" height="40"
                     class="rounded-circle"
-                    src="/assets/img/{{ interfaces.image }} " alt="{{ interfaces.title }}" />
+                    src="/assets/img/{{ post.image }} " alt="{{ post.title }}" />
                   </a>
                 </div>
                 <div class="media-body">
-                  <h6 class="mb-1">{{ interfaces.title }}</h6>
+                  <h6 class="mb-1">{{ post.title }}</h6>
                 </div>
               </div>
               <div class="d-flex flex-column" style="height: 105px;">
                <div class="p-2">
-                 <p class="text-muted">{{ interfaces.excerpt }}</p>
+                 <p class="text-muted">{{ post.excerpt }}</p>
                </div>
               </div>
               <div class=" flex-column align-items-end">
-                <button type="button" class="btn btn-secondary btn-sm btn-block" onclick="location.href = '{{ interfaces.url }}';">View project</button>
+                <button type="button" class="btn btn-secondary btn-sm btn-block" onclick="location.href = '{{ post.url }}';">View project</button>
               </div>
             </div>
           </div>
-          {% endif %}
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
+</div>

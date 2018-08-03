@@ -42,6 +42,12 @@ collections:
   illustration:
     output: true
     permalink: /illustrations/:name
+  animations:
+    output: true
+    permalink: /animations/:name
+  coding:
+    output: true
+    permalink: /coding/:name
 
   # defaults:
   # - scope:

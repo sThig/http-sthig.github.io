@@ -39,13 +39,16 @@ collections:
   userinterface:
     output: true
     permalink: /user-interface/:name
+  illustration:
+    output: true
+    permalink: /illustrations/:name
 
-  defaults:
-  - scope:
-      path: ""
-      type: "animals"
-    values:
-      layout: default
+  # defaults:
+  # - scope:
+  #     path: ""
+  #     type: "animals"
+  #   values:
+  #     layout: default
   # userinterface:
   #   output: true
   # code:

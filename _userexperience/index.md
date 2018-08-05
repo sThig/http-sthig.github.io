@@ -1,9 +1,10 @@
 ---
 layout: sections
-title: User Experience
+title: User Experience home
+home-title: User Experience
 subtitle: something about ux
 image: ux.svg
-cat-image: /animation/panda_finish.gif
+cat-image: /ux/ux.jpg
 passname: userexperiences
 ---
 

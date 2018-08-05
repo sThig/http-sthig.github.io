@@ -1,10 +1,11 @@
 ---
 layout: sections
-title: Illustration
+title: Illustration home
+home-title: Illustration
 subtitle: Cool illustration subtitle
 image: illustration.svg
 url: illustration
-cat-image: /animation/panda_finish.gif
+cat-image: /illo/xmasad.jpg
 passname: illustrations
 ---
 

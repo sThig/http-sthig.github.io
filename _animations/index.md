@@ -1,6 +1,7 @@
 ---
 layout: sections
-title: Animations
+title: Animation home
+home-title: Animation
 subtitle: Animations optimized for web and video production.
 image: animation.svg
 cat-image: /animation/panda_finish.gif

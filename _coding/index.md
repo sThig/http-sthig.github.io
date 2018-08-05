@@ -1,9 +1,10 @@
 ---
 layout: sections
-title: Front End Development
+title: 192.168.1.1
+home-title: Front End Development
 image: code.svg
 subtitle: Mark HAML that shit with the --force
-cat-image: /animation/panda_finish.gif
+cat-image: /coding/code-illo.png
 passname: coding
 ---
 

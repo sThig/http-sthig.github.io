@@ -1,22 +1,14 @@
 url,title
 /,Home
-/pages/about
-/pages/design-ui
-/pages/design-ux
-/pages/code
-/pages/illustration
-/pages/animation
-/design-ui/,ui
-/posts/,ui
-/posts/ui
+
 /aboutme/About
 /aboutme/,About
 /animations/Animation
 /animations/,Animation
 /coding/Front End Development
 /coding/,Front End Development
-/illustration/Illustration
-/illustration/,Illustration
+/illustrations/Illustration
+/illustrations/,Illustrations
 /user-interface/User Interface
 /user-interface/,User Interface
 /user-experience/User Experience

@@ -35,4 +35,7 @@
     </ul>
   </div>
 </nav>
-{% include breadcrumbs.html %}
+
+{% if page.url != "/" %}
+   {% include breadcrumbs.html %}
+{% endif %}

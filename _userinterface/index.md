@@ -1,9 +1,10 @@
 ---
 layout: sections
-title: User Interface
+title: User Interface home
+home-title: User Interface
 subtitle: Pixel Perfect Slickness
 image: ui.svg
-cat-image: /animation/panda_finish.gif
+cat-image: /ui/bearfinal.gif
 url-key: ui-card.html
 passname: userinterfaces
 ---

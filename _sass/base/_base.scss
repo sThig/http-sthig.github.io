@@ -7,23 +7,22 @@
 @import 'hootstrap/base/mixins/toast';
 @import 'hootstrap/base/mixins/tooltip';
 
-
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
   margin: 0;
- background-color: $color20darken;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
+  background-color: $color20darken;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 
@@ -34,7 +33,7 @@ html {
 
 body {
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
@@ -42,10 +41,10 @@ a {
   color: $colortext;
   text-decoration: none;
   font-weight: bold;
-  -webkit-transition: color .4s ease-out;
-  -moz-transition: color .4s ease-out;
-  -o-transition: color .4s ease-out;
-  transition: color .4s ease-out;
+  -webkit-transition: color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
@@ -81,7 +80,7 @@ table {
 }
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid $color2;
 }
 tbody tr:nth-child(odd) td,
@@ -93,12 +92,12 @@ tbody tr:nth-child(odd) th {
   height: 100vh;
 }
 
-.navbar{
+.navbar {
   a:hover {
     cursor: pointer;
-    -webkit-transition: color .4s ease-out;
-    -moz-transition: color .4s ease-out;
-    -o-transition: color .4s ease-out;
-    transition: color .4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -o-transition: color 0.4s ease-out;
+    transition: color 0.4s ease-out;
   }
 }

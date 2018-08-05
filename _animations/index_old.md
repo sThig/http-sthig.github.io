@@ -3,12 +3,14 @@ layout: default
 title: Web and Video Animation
 image: animation.svg
 ---
+
 <div class="container">
   <div class="page-header">
 
     <img class="rounded-circle" width="50" src="/assets/img/internal/{{ page.image }}" alt="Icon">
     <h4 class="display-4">Animation</h4>
     <h5 class="page-subtitle w-50 w-md-100 m-auto">Animations optimized for web and video production.</h5>
+
 </div>
 <div class="mx-auto col-lg-10 d-flex justify-content-center px-4">
   <div class="col-lg-6">When I was a kid I saw Disney’s Jungle Book and remember thinking “This is what I want to be in life, an Animator.” After college I spent months creating several portfolios that I sent out to every animation house in the world (at the time, around 30) and was rejected by everyone. I was crushed but it never crushed my spirit.

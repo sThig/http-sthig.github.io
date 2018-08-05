@@ -3,3 +3,7 @@
 @import 'hootstrap/base/mixins/button';
 @import 'hootstrap/base/mixins/toast';
 @import 'hootstrap/base/mixins/tooltip';
+
+#homepage #breadcrumbs {
+  display: none;
+}

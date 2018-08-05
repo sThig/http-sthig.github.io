@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="page-header">
+
+    <img class="rounded-circle" width="50" src="/assets/img/internal/{{ page.image }}" alt="Icon">
+    <h4 class="display-4">{{ page.title }}</h4>
+    <h5 class="page-subtitle w-50 w-md-100 m-auto">{{ page.subtitle }}</h5>
+</div>
+<div class="mx-auto col-lg-10 d-flex justify-content-center px-4">
+  <div class="col-lg-6">
+    {{ content }}
+  </div>
+  <div class="col-lg-6">
+    <img class="mx-auto d-block img-fluid" src="/assets/img/cats/{{ page.cat-image }}" alt="{{ page.image-name }}">
+  </div>
+</div>
+
+  <div class="col-lg-12 mt-2">
+    <div>
+      <div class="mx-auto row d-flex justify-content-center mt-3" style="max-width: 1400px">
+        {% for anim in site.[page.passnames] %}
+          {% if [page.passname-short].passname == '[page.passname]' %}
+        <div class="card col-sm-12 col-lg-3 m-2">
+          <div class="card-body d-flex flex-column">
+            <div class="media">
+              <div class="d-flex mr-3">
+                <a href="{{ [page.passname-short].url }}">
+                  <img width="40" height="40"
+                  class="rounded-circle"
+                  src="/assets/img/{{ [page.passname-short].image }} " alt="{{ [page.passname-short].title }}" />
+                </a>
+              </div>
+              <div class="media-body">
+                <h6 class="mb-1">{{ [page.passname-short].title }}</h6>
+              </div>
+            </div>
+            <div class="d-flex flex-column" style="height: 105px;">
+             <div class="p-2">
+               <p class="text-muted">{{ [page.passname-short].excerpt }}</p>
+             </div>
+            </div>
+            <div class=" flex-column align-items-end">
+              <button type="button" class="btn btn-secondary btn-sm btn-block" onclick="location.href = '{{ [page.passname-short].url }}';">View project</button>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>

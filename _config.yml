@@ -39,6 +39,9 @@ collections:
   userinterface:
     output: true
     permalink: /user-interface/:name
+  userexperience:
+    output: true
+    permalink: /user-experience/:name
   illustration:
     output: true
     permalink: /illustrations/:name
@@ -48,6 +51,9 @@ collections:
   coding:
     output: true
     permalink: /coding/:name
+  aboutme:
+    output: true
+    permalink: /aboutme/:name
 
   # defaults:
   # - scope:

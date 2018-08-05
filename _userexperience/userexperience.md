@@ -4,6 +4,7 @@ title: The Law of Proximity
 date: 2018-07-12 14:52 -0500
 categories: ux
 image: code-illo.png
+passname: ux
 excerpt: Coding a clock with vanilla js and a lot of math
 ---
 

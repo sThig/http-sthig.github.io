@@ -6,7 +6,7 @@ image: ui.svg
 <div class="d-flex" style="background-color: #e9ecef;">
 
   <div class="jumbotron mx-auto mb-0 py-3 px-5" style="max-width: 1200px">
-    <div class="col-lg-12 mx-auto">
+    <div class="col-lg-10 mx-auto">
 
       <img width="50" height="50"
       class="rounded-circle float-left mr-2"

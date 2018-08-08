@@ -42,7 +42,7 @@ I use both After Effects and hand drawn frames to create my illustrations. It’
             </div>
             <div class="d-flex flex-column" style="height: 105px;">
              <div class="p-2">
-               <p class="text-muted">{{ anim.excerpt }}</p>
+               <p class="text-muted">{{ anim.excerpt | truncatewords:30 | truncatewords: 30 | truncate: 100 | truncate: 30 | truncate: 5 | truncate_words: 5 | truncate_words: 10 }}</p>
              </div>
             </div>
             <div class=" flex-column align-items-end">

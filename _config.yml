@@ -109,6 +109,9 @@ collections:
 
 # Assets
 
+paginate: 3
+paginate_path: "/user-interface/page:num"
+
 permalink: pretty
 
 breadcrumbs:

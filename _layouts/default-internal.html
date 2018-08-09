@@ -2,13 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-  {% include breadcrumbs.html %}
+
   <body class="section-body">
 
     {%- include nav.html -%}
-
     <main class="page-content" aria-label="Content">
-      <div class="mt-5">
+      <div class="container px-5">
         {{ content }}
       </div>
     </main>

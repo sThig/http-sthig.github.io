@@ -12,37 +12,20 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">My Life's Philosophy</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Contact me</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
+        {% include form.html %}
         <blockquote class="blockquote">
-        <p>
-          Not merely bear what is necessary...but love it.
-        </p>
-        <footer class="blockquote-footer">Marcus Aurelius <cite title="Source Title">Meditations</cite></footer>
+          <p>
+            Not merely bear what is necessary...but love it.
+          </p>
+          <footer class="blockquote-footer">Marcus Aurelius <cite title="Source Title">Meditations</cite></footer>
         </blockquote>
-        <div class="col">
-          <form id="contactform" method="POST">
-            <input type="text" name="name" placeholder="Your name">
-            <input type="email" name="_replyto" placeholder="Your email">
-            <input type="hidden" name="_subject" value="Website contact" />
-            <textarea name="message" placeholder="Your message"></textarea>
-            <input type="text" name="_gotcha" style="display:none" />
-            <input type="submit" value="Send">
-          </form>
-        </div>
-
-<script>
-var contactform = document.getElementById('contactform');
-contactform.setAttribute(
-  'action',
-  '//formspree.io/' + 'scott.thigpen' + '@' + 'gmail' + '.' + 'com'
-);
-</script>
-        <img alt="Thigpen Designs" class="footer-logo mb-3" src="{{base}}/assets/img/logos/bear-logo-wordmark.svg" alt="Thigpen Designs" style="width: 260px;">
+        <img alt="Thigpen Designs" class="footer-logo mb-3 mt-3" src="{{base}}/assets/img/logos/bear-logo-wordmark.svg" alt="Thigpen Designs" style="width: 160px;">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -69,6 +52,10 @@ contactform.setAttribute(
         <li class="list-inline-item">·</li>
         <li class="list-inline-item">
           <a class="text-muted" target="_blank" href="https://www.facebook.com/sthig">Facebook</a>
+        </li>
+        <li class="list-inline-item">·</li>
+        <li class="list-inline-item">
+          <a class="text-muted" target="_blank" href="{{base}}/contact">Contact</a>
         </li>
       </ul>
     </div>

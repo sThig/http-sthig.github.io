@@ -1,0 +1,25 @@
+<div class="col">
+  <form id="contactform" method="POST">
+    <div class="form-group">
+      <label for="exampleInputName" style="text-align: left;display: block;">Your Name</label>
+      <input type="text" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Your name">
+      <label for="exampleInputEmail1" class="mt-2" style="text-align: left;display: block;">Email address</label>
+      <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <input type="hidden" name="_subject" value="Website contact" />
+       <label for="exampleTextarea" style="text-align: left;display: block;" class="mt-2">Message</label>
+      <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_next" value="{{base}}/thanks" />
+      <!-- <input type="submit" value="Send"> -->
+      <button type="submit" class="btn btn-block btn-primary mt-3" value="Send">Submit</button>
+    </div>
+  </form>
+</div>
+
+<script>
+var contactform = document.getElementById('contactform');
+contactform.setAttribute(
+'action',
+'//formspree.io/' + 'scott.thigpen' + '@' + 'gmail' + '.' + 'com'
+);
+</script>

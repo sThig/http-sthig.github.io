@@ -54,6 +54,12 @@ collections:
   aboutme:
     output: true
     permalink: /aboutme/:name
+  contact:
+    output: true
+    permalink: /contact/:name
+  thanks:
+    output: true
+    permalink: /thanks/:name
 
   # defaults:
   # - scope:

@@ -1,5 +1,5 @@
 ---
-layout: sections
+layout: sections-contact
 title: Contact Scott
 home-title: Contact
 subtitle: Let's chat! Use the form below to contact me

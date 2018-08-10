@@ -1,5 +1,5 @@
 ---
-layout: sections
+layout: sections-contact
 title: Thank you!
 home-title: Thanks
 subtitle: Thank you for contacting me

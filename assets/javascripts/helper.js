@@ -19,11 +19,11 @@ if (window.location.pathname === '/index.html') {
   }, 1000);
 }
 
+// //collapse navbar when it's in mobile format
+//   $('.navbar-nav>li>a').on('click', function() {
+//     $('.navbar-collapse').collapse('hide');
+//   });
 
-
-
-
-//collapse navbar when it's in mobile format
-  $('.navbar-nav>li>a').on('click', function() {
-    $('.navbar-collapse').collapse('hide');
+  $('.dropdown-menu').click(function(e) {
+      e.stopPropagation();
   });

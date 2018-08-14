@@ -5,39 +5,42 @@
 {% elsif depth == 3 %}{% assign base = '../..' %}
 {% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
 
-<nav class="navbar navbar-expand-lg navbar-toggleable-md navbar-dark bg-primary">
-  <a class="navbar-brand" href="{{site.url}}">
-    <img src="{{base}}/assets/img/logos/bear-logo-white-head.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Thigpen Designs</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         User Design
-       </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="{{base}}/user-interface">User Interface</a>
-         <a class="dropdown-item" href="{{base}}/user-experience">User Experience</a>
-         <a class="dropdown-item" href="{{base}}/coding">Front End Development</a>
-       </div>
-     </li>
-      <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Graphic Design
-       </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="{{base}}/illustrations">Illustration</a>
-         <a class="dropdown-item" href="{{base}}/animations">Animation</a>
-       </div>
-     </li>
-      <li class="nav-item">
-          <a class="nav-link" href="{{base}}/contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+
+  <nav class="navbar navbar-expand-lg navbar-toggleable-md navbar-dark bg-primary">
+    <a class="navbar-brand" href="{{site.url}}">
+      <img src="{{base}}/assets/img/logos/bear-logo-white-head.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Thigpen Designs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           User Design
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="{{base}}/user-interface">User Interface</a>
+           <a class="dropdown-item" href="{{base}}/user-experience">User Experience</a>
+           <a class="dropdown-item" href="{{base}}/coding">Front End Development</a>
+         </div>
+       </li>
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Graphic Design
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="{{base}}/illustrations">Illustration</a>
+           <a class="dropdown-item" href="{{base}}/animations">Animation</a>
+         </div>
+       </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{base}}/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
 
 {% if page.url != "/" %}
    {% include breadcrumbs.html %}

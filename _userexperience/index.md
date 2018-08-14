@@ -4,7 +4,7 @@ title: User Experience home
 home-title: User Experience
 subtitle: something about ux
 image: ux.svg
-cat-image: /ux/ux.jpg
+cat-image: /ux/ux.png
 passname: userexperiences
 ---
 

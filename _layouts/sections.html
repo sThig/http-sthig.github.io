@@ -1,8 +1,24 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 <div class="container">
   <div class="page-header">
+    {% if paginator.total_pages > 1 %}
+<ul>
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
     <img class="rounded-circle" width="50" src="/assets/img/internal/{{ page.image }}" alt="Icon">
     <h4 class="display-4">{{ page.home-title }}</h4>
     <h5 class="page-subtitle w-50 w-md-100 m-auto">{{ page.subtitle }}</h5>
@@ -15,8 +31,6 @@ layout: default
     <img class="mx-auto d-block img-fluid" src="/assets/img/cats{{ page.cat-image }}" alt="{{ page.image-name }}">
   </div>
 </div>
-
-
 <div class="col-lg-12 mt-2">
 </div>
 

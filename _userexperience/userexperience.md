@@ -5,7 +5,7 @@ date: 2018-07-12 14:52 -0500
 categories: ux
 image: code-illo.png
 passname: ux
-excerpt: Coding a clock with vanilla js and a lot of math
+excerpt: Objects that are near, or proximate to each other, tend to be grouped together.
 ---
 
 Recently at work we had dialogue about how the elements on part of software should flow. For days we went back and forth on how it should look.  That's when I went to the [Laws of UX](https://lawsofux.com/) and read up on the [Law of Proximity](https://lawsofux.com/law-of-proximity) which states:

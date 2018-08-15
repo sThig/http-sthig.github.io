@@ -5,10 +5,11 @@ date: 2018-08-10 14:52 -0500
 categories: ux
 image: code-illo.png
 passname: ux
-excerpt: humans naturally perceive objects as organized patterns and objects, a principle known as Prägnanz
+excerpt: humans naturally perceive objects as organized patterns and objects, a principle
+  known as Prägnanz
 ---
 
-If there is one thing I abide by more than anything else, it's groups of elements within an app.  So many times I've loaded up apps to have elements all over the place leaving me frustrated, having to think and ultimately I uninstall the app.
+If there is one thing I abide by more than anything else, it's groups of elements within an app.  So many times I've loaded up apps to have elements all over the place leaving me frustrated, having to [think](https://www.amazon.com/s/?ie=UTF8&keywords=don+t+make+me+think&tag=googhydr-20&index=aps&hvadid=241896886556&hvpos=1t1&hvnetw=g&hvrand=10802714144808336485&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9052156&hvtargid=kwd-299679305515&ref=pd_sl_5h3kiouhpx_e) and ultimately I uninstall the app.  You've done it too, downloaded an app only to have it poorly designed which creates distrust and a horrible user experience.
 
 When elements are grouped together, a user feels much more at ease to navigate through an app.  
 
@@ -20,4 +21,4 @@ When elements are grouped together, a user feels much more at ease to navigate t
 
 ([Source](https://en.wikipedia.org/wiki/Principles_of_grouping))
 
-One of my favorite sites to visit is [Laws Of UX ](https://lawsofux.com/) and they present these laws in a nicely formatted way.
+One of my favorite sites to visit is [Laws Of UX ](https://lawsofux.com/) and they present these principles in a nicely formatted way, it's worth your time to visit.

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Why Aesthetics matter in usability
+layout: post
 date: 2018-07-12 14:52 -0500
 categories: ux
 image: code-illo.png
@@ -8,17 +8,17 @@ passname: ux
 excerpt: Aesthetics create trust for the user
 ---
 
-I try to read over the "[Laws of UX](https://lawsofux.com/)" weekly to remember when creating and app or webpage, making the user think is a huge no-no, I want a user's experience to be pleasant and ubiquitous.
+To always keep improving as a UiUX designer, I try to read over the "[Laws of UX](https://lawsofux.com/)" weekly.  I do this to remember when creating and app or webpage, making the user *think* is a huge no-no, I want a user's experience to be pleasant and ubiquitous.
 
 > Users often perceive aesthetically pleasing design as design that’s more usable.
 
-Where I work there is a lot of banter between Android and iPhone users.  iPhone users are always percieved as design snobs and maybe that's true (or maybe not).
+Where I work there is a lot of banter between Android and iPhone users.  iPhone users are always percieved as design snobs and maybe that's true (*or maybe not, I think iTunes' ui is an absolute stinker.*).
 
 I remember when the iPhone came out I was instantly drawn to it, not because it was a shiny new piece of metal but because the design was so beautiful and well laid out.  
 
-I remember when a version of the iPhone (iOS) was coming out and they deliberated over the drop shadow of the buttons...should it be 2px or 3px.  This may seem silly to talk about, but it matters.  
+Also,  when a new software version of the iPhone (iOS) was coming out and they deliberated over the drop shadow of the buttons and how many pixels it should...should it be 2px or 3px?  Apple literally debated over a few pixels on a drop shadow.  This is how important design is.
 
-When I taught at UAB, I used to tell my students about presenting their work and why it was so crucial to make sure to consider every last detail.
+When I taught at [UAB](https://www.uab.edu), I used to tell my students about presenting their work and why it was so crucial to make sure to consider every last detail.
 
 I would tell them:
 

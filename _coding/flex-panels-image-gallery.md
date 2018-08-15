@@ -1,5 +1,5 @@
 ---
-title: Flex Panels Image Gallery
+title: Flex Panels
 layout: post
 date: '2018-08-08 01:00:00'
 image: code-illo.png

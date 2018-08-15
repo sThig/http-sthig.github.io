@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript Challenge - Drum Kit
+title: Challenge - Drum Kit
 date: 2018-07-06 14:22 -0500
 categories: [ javascript, code ]
 image: code-illo.png

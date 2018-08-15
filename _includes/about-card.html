@@ -10,11 +10,11 @@
             <a href="{{ anim.url }}">
               <img width="40" height="40"
               class="rounded-circle"
-              src="/assets/img/{{ anim.image }} " alt="{{ anim.title }}" />
+              src="/assets/img/{{ anim.image }} " alt="{{ anim.title | truncatewords: 4 }}" />
             </a>
           </div>
           <div class="media-body">
-            <h6 class="mb-1">{{ anim.title }}</h6>
+            <h6 class="mb-1">{{ anim.title | truncatewords: 4 }}</h6>
           </div>
         </div>
         <div class="d-flex flex-column" style="height: 105px;">

@@ -6,14 +6,14 @@
         {% if (url_prefix == crumb.url) and (page.url != crumb.url) %}
           <li class="breadcrumb-item">
             <a href="{{ crumb.url | prepend: site.baseurl }}">
-              {{ crumb.title }}
+              {{ crumb.title | truncatewords: 4 }}
             </a>
           </li>
         {% endif %}
       {% endfor %}
       <li class="breadcrumb-item active">
         <a  href="{{ page.url | prepend: site.baseurl }}">
-          {{ page.title }}
+          {{ page.title | truncatewords: 4 }}
         </a>
       </li>
     </ol>

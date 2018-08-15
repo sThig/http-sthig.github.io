@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript Challenge Clock Face
+title: Challenge Clock Face
 date: 2018-07-07 13:11 -0500
 categories: [ javascript, code ]
 image: code-illo.png

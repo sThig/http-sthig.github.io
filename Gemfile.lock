@@ -107,7 +107,8 @@ GEM
       jekyll (~> 3.0)
     jekyll-feed (0.10.0)
       jekyll (~> 3.3)
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (1.9.4)
+      jekyll (~> 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -224,7 +225,8 @@ DEPENDENCIES
   jekyll-assets
   jekyll-bootstrap-sass
   jekyll-compose
-  jekyll-paginate
+  jekyll-feed
+  jekyll-paginate-v2
   jekyll-sass-converter
   minima (~> 2.0)
   tzinfo-data

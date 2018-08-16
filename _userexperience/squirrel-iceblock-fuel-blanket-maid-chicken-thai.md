@@ -3,7 +3,7 @@ title: Squirrel, Iceblock, Fuel, Blanket, Maid, Chicken, Thai
 layout: post
 date: 2018-08-15 14:52 -0500
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: The average person can only keep 7 (plus or minus 2) items in their working
   memory.

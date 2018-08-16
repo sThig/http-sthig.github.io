@@ -3,7 +3,7 @@ title: The Law of Common Region
 layout: post
 date: 2018-08-10 14:52 -0500
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: humans naturally perceive objects as organized patterns and objects, a principle
   known as Prägnanz

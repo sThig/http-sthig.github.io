@@ -3,7 +3,7 @@ title: Jakob's Law
 layout: post
 date: 2018-08-9 14:52 -0500
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: Users spend most of their time on other sites. This means that users prefer
   your site to work the same way as all the other sites they already know.

@@ -3,13 +3,13 @@ title: 400 Milliseconds
 layout: post
 date: '2018-08-08 08:28:30'
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: Productivity soars when a computer and its users interact at a pace ( < 400ms
   ) that ensures that neither has to wait on the other.
 ---
 
-400 Milliseconds.  That's apparently the magic amount of time to keep a user's attention and increase productivity. 
+400 Milliseconds.  That's apparently the magic amount of time to keep a user's attention and increase productivity.
 
 > Productivity soars when a computer and its users interact at a pace ( < 400ms ) that ensures that neither has to wait on the other.
 

@@ -6,6 +6,8 @@ subtitle: Animations optimized for web and video production.
 image: animation.svg
 cat-image: /animation/panda_finish.gif
 passname: animations
+pagination:
+  enabled: true
 ---
 
 When I was a kid I saw Disney’s Jungle Book and remember thinking “This is what I want to be in life, an Animator.” After college I spent months creating several portfolios that I sent out to every animation house in the world (at the time, around 30) and was rejected by everyone. I was crushed but it never crushed my spirit.

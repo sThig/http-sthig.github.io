@@ -20,7 +20,8 @@ group :jekyll_plugins do
   gem 'bootstrap', '~> 4.0.0.alpha3'
   gem 'autoprefixer-rails'
   gem 'jekyll-assets'
-  gem 'jekyll-paginate'
+  gem "jekyll-paginate-v2"
+  gem "jekyll-feed"
 end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

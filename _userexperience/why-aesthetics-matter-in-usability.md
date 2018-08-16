@@ -3,7 +3,7 @@ title: Why Aesthetics matter in usability
 layout: post
 date: 2018-07-12 14:52 -0500
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: Aesthetics create trust for the user
 ---

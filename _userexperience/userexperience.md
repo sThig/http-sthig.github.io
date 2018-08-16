@@ -3,7 +3,7 @@ title: The Law of Proximity
 layout: post
 date: 2018-07-12 14:52 -0500
 categories: ux
-image: code-illo.png
+image: lightbulb.png
 passname: ux
 excerpt: Objects that are near, or proximate to each other, tend to be grouped together.
 ---

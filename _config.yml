@@ -61,6 +61,7 @@ collections:
   thanks:
     output: true
     permalink: /thanks/:name
+collections_dir: pages
 
   # defaults:
   # - scope:
@@ -113,9 +114,9 @@ collections:
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 3
-  permalink: '/animations/page/:num/'
-  title: ':title - page :num of :max'
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ' - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
@@ -149,3 +150,36 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+    ############################################################
+# Site configuration for the Auto-Pages feature
+# The values here represent the defaults if nothing is set
+autopages:
+
+  # Site-wide kill switch, disable here and it doesn't run at all
+  enabled: false
+
+  # Category pages, omit entire config element to disable
+  categories:
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts:
+      - 'autopage_category.html'
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: 'Posts in category :cat'
+    # Optional, the permalink for the  pagination page (:cat is replaced),
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: '/category/:cat'
+
+  # Collection pages, omit to disable
+  collections:
+    layouts:
+      - 'autopage_collection.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+
+  # Tag pages, omit to disable
+  tags:
+    layouts:
+      - 'autopage_tags.html'
+    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'

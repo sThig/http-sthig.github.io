@@ -7,6 +7,7 @@ image: /cats/animation/comp_1_1.gif
 excerpt: Fisherman animation loop
 categories: animation
 passname: animation
+
 ---
 
 Hand-drawn and finished in Adobe After Effects

@@ -2,17 +2,15 @@
 layout: sections
 title: Illustration home
 home-title: Illustration
-subtitle: Vectoring Illustrations since 1991
+subtitle: Vectored illustrations since 1991
 image: illustration.svg
 url: illustration
 cat-image: /illo/xmasad.jpg
 passname: illustrations
 ---
 
-In the 90s I got my first illustration project which was to illustrate a flyer for a frat party. It was my first illustration project that got me hooked which led to bigger clients like BBVA/Compass bank, The Wall Street Journal, Dreamworks, Coca Cola, Snapple and Toyota to name a few.
+In the 90s I got my first illustration project which was to illustrate a flyer for a frat party. Over two decades later and I've work with clients like McGraw Hill, BVA/Compass bank, The Wall Street Journal, Dreamworks, Coca Cola, Snapple and Toyota to name a few.  I even won an award once for an editorial piece.  
 
-For over 20 years I illustrated for companies across the world and down to the hometown repair shop. The tools I used were always Adobe Illustrator and Photoshop. In fact I know Illustrator so well that I rarely even use a sketch to work off of now-a-days.
+My tool of choice to draw with has always been [Adobe Illustrator](https://www.adobe.com/) and used it religiously up until a few years ago and have recently switch to [Affinity](https://affinity.serif.com/en-us/) and [Sketch](https://www.sketchapp.com/) (in my opinion, far superior apps than the Adobe Suite).
 
-I won an award
-
-Recently I’ve abandoned Illustrator for Affinity’s Designer and Photo (I did this because I think Adobe’s subscription based model is a rip-off and honestly Affinity is better).
+These days most of my illustrations are svgs intended for web apps however I still show work in galleries as well as take on commissions.

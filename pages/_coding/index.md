@@ -3,7 +3,7 @@ layout: sections
 title: 192.168.1.1
 home-title: Front End Development
 image: code.svg
-subtitle: Mark HAML that shit with the --force
+subtitle: Vanilla and React are my favorite flavors
 cat-image: /coding/code-illo.png
 passname: coding
 ---

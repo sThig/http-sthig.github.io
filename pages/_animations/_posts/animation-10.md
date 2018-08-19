@@ -7,8 +7,6 @@ image: /cats/animation/weightlifter.gif
 excerpt: Weightlifter animation loop
 categories: animation
 passname: animation
-pagination:
-  enabled: true
 ---
 
 Hand-drawn and finished in Adobe After Effects

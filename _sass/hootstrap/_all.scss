@@ -3803,9 +3803,9 @@ button.close {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.3rem;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 rgba(0, 0, 0, 0.5);
   outline: 0; }
 
 .modal-backdrop {
@@ -3815,11 +3815,11 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000; }
+  background-color: #E9ECEF; }
   .modal-backdrop.fade {
     opacity: 0; }
   .modal-backdrop.show {
-    opacity: 0.5; }
+    opacity: 1; }
 
 .modal-header {
   display: flex;
@@ -3869,7 +3869,7 @@ button.close {
     min-height: calc(100% - (30px * 2)); }
 
   .modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 rgba(0, 0, 0, 0.5); }
 
   .modal-sm {
     max-width: 300px; } }

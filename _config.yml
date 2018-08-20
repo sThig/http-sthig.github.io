@@ -25,7 +25,7 @@ github_username:  sthig
 # Build settings
 markdown: kramdown
 theme: minima
-gems: [bootstrap, autoprefixer-rails, jekyll-assets]
+gems: [bootstrap, autoprefixer-rails, jekyll-assets, jekyll-paginate]
 sass:
   sass_dir: _sass
 # theme: jekyll-theme-primer
@@ -61,6 +61,9 @@ collections:
   thanks:
     output: true
     permalink: /thanks/:name
+  examplecol:
+    output: true
+    permalink: /:collection/:path/
 collections_dir: pages
 
   # defaults:
@@ -112,11 +115,20 @@ collections_dir: pages
 # Assets
 
 # Pagination Settings
+# pagination:
+#   enabled: true
+#   per_page: 3
+#   permalink: '/pages/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/pages/:num/'
-  title: ':title - page :num of :max'
+  permalink: '/page/:num/'
+  title_suffix: ' - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true

@@ -17,7 +17,7 @@
           <th scope="row">{% increment site.code %}</th>
 
           <td>{{ code.title | truncatewords: 10 }}</td>
-          <td>{{ code.excerpt | truncatewords: 20 }}</td>
+          <td><a href="{{ code.url }}">{{ code.excerpt | truncatewords: 20 }}</a></td>
           <td>{{ code.content | truncatewords: 20 }}</td>
           <td>
             <img width="40" height="40"

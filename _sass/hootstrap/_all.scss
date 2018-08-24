@@ -1232,10 +1232,17 @@ pre {
     border-bottom-width: 2px; }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.0125); }
+  background-color: #F5F7FA; }
 
 .table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #0072B1;
+  color: #fff;
+  transition: all 0.125s ease-in-out;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
 
 .table-primary,
 .table-primary > th,

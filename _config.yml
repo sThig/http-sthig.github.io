@@ -37,6 +37,9 @@ plugins:
   # - jekyll-paginate-v2
 
 collections:
+  sandbox:
+    output: true
+    permalink: /sandbox/:name
   userinterface:
     output: true
     permalink: /user-interface/:name

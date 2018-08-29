@@ -26,9 +26,9 @@ github_username:  sthig
 markdown: kramdown
 theme: minima
 gems: [bootstrap, autoprefixer-rails, jekyll-assets]
-# sass:
-#   sass_dir: _sass
-#   style: compressed
+sass:
+  sass_dir: _sass
+  style: compressed
 # theme: jekyll-theme-primer
 
 plugins:

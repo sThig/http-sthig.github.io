@@ -141,12 +141,10 @@ a {
   color: #0072b1;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
+  -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #004165;
-    text-decoration: underline;
-  }
+    text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -1232,17 +1230,10 @@ pre {
     border-bottom-width: 2px; }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #F5F7FA; }
+  background-color: rgba(0, 0, 0, 0.05); }
 
 .table-hover tbody tr:hover {
-  background-color: #0072B1;
-  color: #fff;
-  transition: all 0.125s ease-in-out;
-  a {
-    color: white;
-    text-decoration: underline;
-  }
-}
+  background-color: rgba(0, 0, 0, 0.075); }
 
 .table-primary,
 .table-primary > th,
@@ -2211,15 +2202,15 @@ fieldset:disabled a.btn {
   line-height: 1.5;
   border-radius: 0.2rem; }
 
-.btn-sm {
+.btn-block {
   display: block;
   width: 100%; }
-  .btn-sm + .btn-sm {
+  .btn-block + .btn-block {
     margin-top: 0.5rem; }
 
-input[type="submit"].btn-sm,
-input[type="reset"].btn-sm,
-input[type="button"].btn-sm {
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
   width: 100%; }
 
 .fade {
@@ -3445,7 +3436,7 @@ tbody.collapse.show {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  // background-color: #e9ecef;
+  background-color: #e9ecef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -3810,9 +3801,9 @@ button.close {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
-  box-shadow: 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   outline: 0; }
 
 .modal-backdrop {
@@ -3822,11 +3813,11 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #E9ECEF; }
+  background-color: #000; }
   .modal-backdrop.fade {
     opacity: 0; }
   .modal-backdrop.show {
-    opacity: 1; }
+    opacity: 0.5; }
 
 .modal-header {
   display: flex;
@@ -3876,7 +3867,7 @@ button.close {
     min-height: calc(100% - (30px * 2)); }
 
   .modal-content {
-    box-shadow: 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 
   .modal-sm {
     max-width: 300px; } }

@@ -53,6 +53,9 @@ collections:
   illustration:
     output: true
     permalink: /illustrations/:name
+  commissions:
+    output: true
+    permalink: /commissions/:name
   animations:
     output: true
     permalink: /animations/:name

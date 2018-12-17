@@ -4,8 +4,7 @@ title: Commissions and paid work
 home-title: Commissions and paid work
 image: illustration.svg
 subtitle: Inquiry about commissions and paid work
-cat-image: /illo/xmasad.jpg
-passname: coding
+
 ---
 
 Hello there,

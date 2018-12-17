@@ -2,4 +2,5 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
 
-@charset "utf-8"; // @import "hootstrap"; // @import 'utils/animate'; // @import 'hootstrap/all'; // @import 'hootstrap/docs';
+@charset "utf-8";
+@import 'hootstrap'; // @import 'utils/animate'; // @import 'hootstrap/all'; // @import 'hootstrap/docs';

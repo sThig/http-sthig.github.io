@@ -9,8 +9,8 @@ cat-image: /illo/xmasad.jpg
 passname: illustrations
 ---
 
-In the 90s I got my first illustration project which was to illustrate a flyer for a frat party. Over two decades later and I've work with clients like McGraw Hill, BVA/Compass bank, The Wall Street Journal, Dreamworks, Coca Cola, Snapple and Toyota to name a few.  I even won an award once for an editorial piece.  
+In the 90s I got my first illustration project creating a flyer for a frat party. More than two decades later and I've work with clients including McGraw Hill, BBVA/Compass bank, The Wall Street Journal, DreamWorks, Coca-Cola, Snapple and Toyota. I even won an award once for an editorial piece.
 
-My tool of choice to draw with has always been [Adobe Illustrator](https://www.adobe.com/) and used it religiously up until a few years ago and have recently switch to [Affinity](https://affinity.serif.com/en-us/) and [Sketch](https://www.sketchapp.com/) (in my opinion, far superior apps than the Adobe Suite).
+My tool of choice to has always been [Adobe Illustrator](https://www.adobe.com/) and, until a few years ago, I used it religiously I have recently switched to [Affinity](https://affinity.serif.com/en-us/) and [Sketch](https://www.sketchapp.com/) (in my opinion the apps are far superior to the Adobe Suite).
 
-These days most of my illustrations are svgs intended for web apps however I still show work in galleries as well as take on commissions.
+While most of my recent illustrations are SVG intended for web apps I still show work in galleries as well as take on commissions (on a case by case basis).
